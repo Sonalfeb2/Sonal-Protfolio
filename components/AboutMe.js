@@ -4,9 +4,9 @@ const AboutMe = () => {
   return (
     <Container fluid className="border-secondary border mb-5"  id="aboutme" style={{backgroundColor:'#F8F9FA'}}>
         <Row className="mt-5 mb-5">
-      <Col xs={2}>
+      <Col xs={4}>
         <img
-          className="border border-secondary rounded-circle"
+          className="border border-secondary rounded-circle" style={{marginLeft:"25%"}}
           src="/image.jpeg"
           alt="profilepicture"
           width="200px"
@@ -15,7 +15,7 @@ const AboutMe = () => {
       </Col>
       <Col>
         <h2 className="display-5 text-center">About Me</h2>
-        <p className="lead text-center">
+        <p className="lead">
           My name is Sonal Agrawal. I’m a post-graduate of 2021 from Lovely
           Professional University at Punjab with a degree in Bachelors of
           Computer Application . I'm most passionate about giving back to the

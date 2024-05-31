@@ -17,13 +17,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Sonal Agrawal</h1>
+        <h2 className="display-5 text-center">Sonal Agrawal</h2>
 
         <marquee loop="" className={styles.description}>
           Passionate about changing the world with technology
         </marquee>
         <div className={styles.contactIcons}>
-          <i className="fa fa-brands fa-github fa-2xl" />
+          <i className="fa fa-brands fa-github" />
           <i className="fa fa-brands fa-linkedin" />
           <i className="fa fa-brands fa-facebook" />
           <i className="fa fa-brands fa-instagram" />
