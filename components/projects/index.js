@@ -28,7 +28,7 @@ const Projects = () => {
     }
   ];
   return (
-    <Container>
+    <Container id="projects">
       <h1 className="text-center">Personal Projects</h1>
       <Row>
         {projectList.map((li, index) =>

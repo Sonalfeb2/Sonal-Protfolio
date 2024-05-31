@@ -13,7 +13,8 @@ const CardProject = ({ list }) => {
         <Card.Text>
           {list.description}
         </Card.Text>
-        <Button variant="primary">Github Repo</Button>
+        
+        <Button href="#" variant="outline-secondary">Github Repo</Button>
       </Card.Body>
       <Card.Footer className="text-muted">
         {list.time}

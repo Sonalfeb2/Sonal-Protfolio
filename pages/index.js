@@ -19,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Sonal Agrawal</h1>
 
-        <marquee className={styles.description}>
+        <marquee loop="" className={styles.description}>
           Passionate about changing the world with technology
         </marquee>
         <div className={styles.contactIcons}>
@@ -29,9 +29,7 @@ export default function Home() {
           <i className="fa fa-brands fa-instagram" />
         </div>
       </main>
-      <hr />
       <AboutMe />
-      <hr />
       <Projects />
       <hr />
     </div>
