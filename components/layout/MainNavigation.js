@@ -10,7 +10,7 @@ function MainNavigation() {
             <Nav className="me-auto">
               <NavLink href="#projects">Projects</NavLink>
               <NavLink href="#resume">Resume</NavLink>
-              <NavLink href="#about">About</NavLink>
+              <NavLink href="#aboutme">About</NavLink>
               <NavLink href="#skills">Skills</NavLink>
             </Nav>
           </Navbar.Collapse>

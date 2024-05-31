@@ -1,37 +1,45 @@
-const AboutMe = () =>{
-    return (
-        <Jumbotron id="aboutme" className="m-0">
-        <div className="container row">
-          <div className="col-5 d-none d-lg-block align-self-center">
-            {showPic && (
-              <img
-                className="border border-secondary rounded-circle"
-                src="../public/logo.png"
-                alt="profilepicture"
-                width="auto"
-                height="auto"
-              />
-            )}
-          </div>
-          <div className={`col-lg-${showPic ? "7" : "12"}`}>
-            <h2 className="display-4 mb-5 text-center">About Me</h2>
-            <p className="lead text-center">Hi</p>
-            
-              <p className="lead text-center">
-                <a
-                  className="btn btn-outline-dark btn-lg"
-                  href="https://drive.google.com/file/d/1m1JEHuimlvxij9rR8rdQvfOXseTNxg4d/view"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  role="button"
-                  aria-label="Resume/CV"
-                >
-                  Resume
-                </a>
-              </p>
-            
-          </div>
-        </div>
-      </Jumbotron>
-    )
-}
+import { Col, Container, Row } from "react-bootstrap";
+
+const AboutMe = () => {
+  return (
+    <Container className="border-secondary border-1"  id="aboutme">
+        <Row>
+      <Col xs={2}>
+        <img
+          className="border border-secondary rounded-circle"
+          src="/image.jpeg"
+          alt="profilepicture"
+          width="200px"
+          height="200px"
+        />
+      </Col>
+      <Col>
+        <h2 className="display-5 text-center">About Me</h2>
+        <p className="lead text-center">
+          My name is Sonal Agrawal. I’m a post-graduate of 2021 from Lovely
+          Professional University at Punjab with a degree in Bachelors of
+          Computer Application . I'm most passionate about giving back to the
+          community, and my goal is to pursue this passion within the field of
+          software engineering. In my free time I like working on open source
+          projects.
+        </p>
+
+        <p className="lead text-center">
+          <a
+            className="btn btn-outline-dark btn-lg"
+            href="https://drive.google.com/file/d/1m1JEHuimlvxij9rR8rdQvfOXseTNxg4d/view"
+            target="_blank"
+            rel="noreferrer noopener"
+            role="button"
+            aria-label="Resume/CV"
+          >
+            Resume
+          </a>
+        </p>
+      </Col>
+      </Row>
+    </Container>
+
+  );
+};
+export default AboutMe;
