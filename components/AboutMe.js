@@ -2,8 +2,8 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const AboutMe = () => {
   return (
-    <Container fluid className="border-secondary border mb-5"  id="aboutme" style={{backgroundColor:'#F8F9FA'}}>
-        <Row className="mt-5 mb-5">
+    <Container fluid className="border-secondary mb-5"  id="aboutme" style={{backgroundColor:'#F8F9FA'}}>
+    <Row className="pt-5 pb-5">
       <Col xs={4}>
         <img
           className="border border-secondary rounded-circle" style={{marginLeft:"25%"}}

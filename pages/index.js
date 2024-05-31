@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/projects";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -31,7 +32,9 @@ export default function Home() {
       </main>
       <AboutMe />
       <Projects />
+      
       <hr />
+      <Skills/>
     </div>
   );
 }
