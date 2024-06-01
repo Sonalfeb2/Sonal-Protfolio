@@ -12,11 +12,11 @@ const AboutMe = () => {
       <Row className="pb-5 pt-2">
         <Col xs={4}>
           <img
-            className="border border-secondary rounded-circle"
-            style={{ marginLeft: "25%" }}
-            src="/image.jpeg"
+            className="border border-secondary"
+            style={{ marginLeft: "31%" ,borderRadius:"11%" }}
+            src="/photo.jpeg"
             alt="profilepicture"
-            width="200px"
+            width="148px"
             height="200px"
           />
         </Col>

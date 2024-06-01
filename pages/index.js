@@ -4,7 +4,6 @@ import AboutMe from "../components/AboutMe";
 import Projects from "../components/projects";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
-
 export default function Home() {
   return (
     <div>
@@ -25,18 +24,17 @@ export default function Home() {
           Passionate about changing the world with technology
         </marquee>
         <div className={styles.contactIcons}>
-          <i className="fa fa-brands fa-github" />
-          <i className="fa fa-brands fa-linkedin" />
-          <i className="fa fa-brands fa-facebook" />
-          <i className="fa fa-brands fa-instagram" />
+        <a class="link-dark" href="https://github.com/Sonalfeb2?tab=repositories" ><i className="fa fa-brands fa-github" /></a>
+        <a class="link-dark" href="https://www.linkedin.com/in/sonalagrawal02/"><i className="fa fa-brands fa-linkedin" /></a>
+        <a class="link-dark" href="https://www.facebook.com/sonal.agrawal.12139862/"><i className="fa fa-brands fa-facebook" /></a>
+        <a class="link-dark" href="https://www.instagram.com/sonal_feb2/"><i className="fa fa-brands fa-instagram" /></a>
         </div>
       </main>
+      {/* Added All the Component of the navbar below */}
       <AboutMe />
-      <Experience/>
+      <Experience />
       <Projects />
-      
-      <hr />
-      <Skills/>
+      <Skills />
     </div>
   );
 }

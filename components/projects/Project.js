@@ -11,13 +11,16 @@ const CardProject = ({ list }) => {
           {list.description}
         </Card.Text>
         <Card.Text>
-        Skills:  {list.skills}
+          Skills: {list.skills}
         </Card.Text>
-        
-        <Button href={list.link} variant="outline-secondary"><i className="fa fa-brands fa-github" /> Github Repo</Button>
       </Card.Body>
-      <Card.Footer className="text-muted">
-        {list.time}
+      <Card.Footer className="text-muted d-flex justify-content-between">
+        <Button href={list.link} variant="outline-secondary">
+          <i className="fa fa-brands fa-github" /> Github Repo
+        </Button>
+        <p>
+          {list.time}
+        </p>
       </Card.Footer>
     </Card>
   );
