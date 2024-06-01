@@ -8,7 +8,7 @@ const AboutMe = () => {
       id="aboutme"
       style={{ backgroundColor: "#F8F9FA" }}
     >
-      <h2 className="display-5 text-center">About Me</h2>
+      <h2 className="display-5 text-center pt-3">About Me</h2>
       <Row className="pb-5 pt-2">
         <Col xs={4}>
           <img
@@ -22,12 +22,13 @@ const AboutMe = () => {
         </Col>
         <Col>
           <p className="lead">
-            My name is Sonal Agrawal. I’m a post-graduate of 2021 from Lovely
-            Professional University at Punjab with a degree in Bachelors of
-            Computer Application . I'm most passionate about giving back to the
-            community, and my goal is to pursue this passion within the field of
-            software engineering. In my free time I like working on open source
-            projects.
+            Results-driven and technically proficient Software Development
+            Intern with 6 months of industry exposure. Seeking an entry-level
+            position in software development to apply practical skills in
+            front-end development acquired during internship. Eager to
+            contribute to innovative projects, collaborate with cross-functional
+            teams, and continuously enhance expertise in software engineering
+            practices.
           </p>
 
           <p className="lead">

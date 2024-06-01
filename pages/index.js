@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/projects";
 import Skills from "../components/Skills";
+import Experience from "../components/Experience";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         </div>
       </main>
       <AboutMe />
+      <Experience/>
       <Projects />
       
       <hr />

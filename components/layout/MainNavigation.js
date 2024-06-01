@@ -9,7 +9,7 @@ function MainNavigation() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavLink href="#projects">Projects</NavLink>
-              <NavLink href="#resume">Resume</NavLink>
+              <NavLink href="#work">Experience</NavLink>
               <NavLink href="#aboutme">About</NavLink>
               <NavLink href="#skills">Skills</NavLink>
             </Nav>

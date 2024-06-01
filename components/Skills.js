@@ -20,14 +20,14 @@ function Skills() {
                     <ProgressBar
                       variant="success"
                       now={60}
-                      label="ALGORITHMS-60%"
+                      label="ALGORITHMS"
                     />
                   </Col>
                   <Col>
                     <ProgressBar
                       variant="success"
                       now={60}
-                      label="HTML/CSS-60%"
+                      label="HTML/CSS"
                     />
                   </Col>
                 </Row>
@@ -36,14 +36,14 @@ function Skills() {
                     <ProgressBar
                       variant="success"
                       now={80}
-                      label="JAVASCRIPT-80%"
+                      label="JAVASCRIPT"
                     />
                   </Col>
                   <Col>
                     <ProgressBar
                       variant="success"
                       now={70}
-                      label="BOOTSTRAP-70%"
+                      label="BOOTSTRAP"
                     />
                   </Col>
                 </Row>
@@ -52,26 +52,26 @@ function Skills() {
                     <ProgressBar
                       variant="success"
                       now={80}
-                      label="RESTAPI-80%"
+                      label="RESTAPI"
                     />
                   </Col>
                   <Col>
                     <ProgressBar
                       variant="success"
                       now={80}
-                      label="REACT JS/REACT-ROUTING-80%"
+                      label="REACT JS/REACT-ROUTING"
                     />
                   </Col>
                 </Row>
                 <Row className="mb-4">
                   <Col>
-                    <ProgressBar variant="success" now={70} label="REDUX-70%" />
+                    <ProgressBar variant="success" now={70} label="REDUX" />
                   </Col>
                   <Col>
                     <ProgressBar
                       variant="success"
                       now={60}
-                      label="FIREBASE-AUTHENTICATION-60%"
+                      label="FIREBASE-AUTHENTICATION"
                     />
                   </Col>
                 </Row>
@@ -80,14 +80,14 @@ function Skills() {
                     <ProgressBar
                       variant="success"
                       now={50}
-                      label="NEXT JS-50%"
+                      label="NEXT JS"
                     />
                   </Col>
                   <Col>
                     <ProgressBar
                       variant="success"
                       now={40}
-                      label="NODE JS-40%"
+                      label="NODE JS"
                     />
                   </Col>
                 </Row>
