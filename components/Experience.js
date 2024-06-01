@@ -10,7 +10,7 @@ const Experience = () => {
     >
       <h2 className="display-5 text-center pt-3">Work Experience</h2>
       <Row className="pb-5 pt-2">
-        <Col md={{ offset: 1 }}>
+        <Col xs={6} md={{offset:1}}>
           <h2 className="display-6">Greenmen Consulting</h2>
           <p>Software Trainee<i>{` (June-2023/Dec-2023)`}</i></p>
           <ul>
@@ -32,9 +32,8 @@ const Experience = () => {
             <li>Worked on live Project in a Team with Seniors .</li>
           </ul>
         </Col>
-        <Col xs={4}>
+        <Col>
           <img
-            style={{ marginLeft: "25%" }}
             src="https://greenmenconsulting.com/wp-content/uploads/2023/03/Group-427322703.svg"
             alt="profilepicture"
             width="200px"

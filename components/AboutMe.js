@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import '../styles/Home.module.css'
 const AboutMe = () => {
   return (
     <Container
@@ -12,8 +12,7 @@ const AboutMe = () => {
       <Row className="pb-5 pt-2">
         <Col xs={4}>
           <img
-            className="border border-secondary"
-            style={{ marginLeft: "31%" ,borderRadius:"11%" }}
+            className="border border-secondary image"
             src="/photo.jpeg"
             alt="profilepicture"
             width="148px"
