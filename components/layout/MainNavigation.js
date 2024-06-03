@@ -2,9 +2,9 @@ import { Navbar, Container, NavLink, Nav } from "react-bootstrap";
 function MainNavigation() {
   return (
     <header>
-      <Navbar expand="lg" fixed="top" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="/">Sonal-Protfolio</Navbar.Brand>
+      <Navbar expand="lg" fixed="top" className="navbar-transparent">
+        <Container fluid>
+          <Navbar.Brand href="#home">{`<Sonal />`}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

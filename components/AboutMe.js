@@ -1,26 +1,21 @@
-import { Col, Container, Row } from "react-bootstrap";
-import '../styles/Home.module.css'
+import { Button, Col, Container, Row } from "react-bootstrap";
+import "../styles/Home.module.css";
 const AboutMe = () => {
   return (
-    <Container
-      fluid
-      className="border-secondary mb-5"
-      id="aboutme"
-      style={{ backgroundColor: "#F8F9FA" }}
-    >
-      <h2 className="display-5 text-center pt-3">About Me</h2>
-      <Row className="pb-5 pt-2">
-        <Col xs={4}>
+    <Container fluid id="aboutme" style={{ backgroundColor: "#F8F9FA" }}>
+      <Row className="py-5">
+        <Col lg={5} className="justify-content-center">
           <img
-            className="border border-secondary image"
+            className="rounded-circle"
             src="/photo.jpeg"
             alt="profilepicture"
-            width="148px"
-            height="200px"
+            width="375px"
+            height="375px"
           />
         </Col>
         <Col>
-          <p className="lead">
+          <h2 className="display-5 text-center pt-3">About Me</h2>
+          <p className="lead text-center">
             Results-driven and technically proficient Software Development
             Intern with 6 months of industry exposure. Seeking an entry-level
             position in software development to apply practical skills in
@@ -29,19 +24,15 @@ const AboutMe = () => {
             teams, and continuously enhance expertise in software engineering
             practices.
           </p>
-
-          <p className="lead">
-            <a
-              className="btn btn-outline-dark btn-lg"
+          <div className="d-flex justify-content-center">
+            <Button
+              size="lg"
+              variant="outline-dark"
               href="https://drive.google.com/file/d/1m1JEHuimlvxij9rR8rdQvfOXseTNxg4d/view"
-              target="_blank"
-              rel="noreferrer noopener"
-              role="button"
-              aria-label="Resume/CV"
             >
               Resume
-            </a>
-          </p>
+            </Button>
+          </div>
         </Col>
       </Row>
     </Container>

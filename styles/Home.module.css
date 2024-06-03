@@ -7,20 +7,32 @@
   align-items: center;
 }
 
-.contactIcons i{
-  margin: 20px;
-  font-size: 2rem;
+.contactIcons i {
+  margin: 10px;
+  font-size: 3rem;
+}
+
+.contactIcons i :hover {
+  color: black;
+
+}
+.contactIcons{
+  padding: 3rem;
 }
 .main {
 
-  padding: 10rem 0 5rem 0;
-  flex: 1;
   display: flex;
   flex-direction: column;
+  margin: 0%;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
 
+  background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+}
 
 .title a {
   color: #0070f3;
@@ -54,8 +66,3 @@
 .logo {
   height: 1em;
 }
-
-
-
-
-
