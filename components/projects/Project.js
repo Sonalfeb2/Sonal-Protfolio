@@ -1,27 +1,47 @@
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Badge } from "react-bootstrap";
 
 const CardProject = ({ list }) => {
   return (
-    <Card className="shadow p-3 mb-5 bg-white rounded">
-      <Card.Header as="h5">
-        {list.title} {list.icon}
-      </Card.Header>
+    <Card className="shadow bg-white rounded p-3 mb-3">
       <Card.Body>
+        <Card.Title>
+          {list.title} {list.icon}
+        </Card.Title>
         <Card.Text>
           {list.description}
         </Card.Text>
+        <div className="d-flex">
+          <Button href={list.link} variant="outline-secondary" className="mx-2">
+            <i className="fa fa-brands fa-github" /> Clone Project
+          </Button>
+          <Button href={list.link} variant="outline-secondary">
+            <i className="fa fa-brands fa-github" /> Repo
+          </Button>
+        </div>
+        <hr />
+        <Card.Text className="d-flex flex-wrap">
+          Languages:{" "}
+          {list.skills.map((skill, index) =>
+            <Badge key={index} bg="light" text="dark" className="mx-2">
+              {skill}
+            </Badge>
+          )}
+        </Card.Text>
         <Card.Text>
-          Skills: {list.skills}
+          <span>
+            <a
+              className="link-dark"
+              style={{ textDecoration: "none" }}
+              href={`${list.link}/stargazers`}
+            >
+              <i className="fa fa-brands fa-github" /> Stars
+            </a>
+          </span>
+          <span className="text-secondary mx-4">
+            {list.time}
+          </span>
         </Card.Text>
       </Card.Body>
-      <Card.Footer className="text-muted d-flex justify-content-between">
-        <Button href={list.link} variant="outline-secondary">
-          <i className="fa fa-brands fa-github" /> Github Repo
-        </Button>
-        <p>
-          {list.time}
-        </p>
-      </Card.Footer>
     </Card>
   );
 };

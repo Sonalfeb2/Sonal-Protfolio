@@ -14,7 +14,7 @@ const Experience = () => {
       <h2 className="display-4 text-center mb-4">Experiences</h2>
       <Row>
         {experienceList.map((list, index) =>
-          <Col lg={6} className="d-flex justify-content-center">
+          <Col lg={6} className="d-flex justify-content-center" key={index}>
             <div>
               <img
                 src={list.img}

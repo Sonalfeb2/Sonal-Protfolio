@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <Container fluid id="aboutme" style={{ backgroundColor: "#F8F9FA" }}>
       <Row className="py-5">
-        <Col lg={5} className="justify-content-center">
+        <Col lg={5} className=" d-flex justify-content-center">
           <img
             className="rounded-circle"
             src="/photo.jpeg"
