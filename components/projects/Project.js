@@ -22,7 +22,7 @@ const CardProject = ({ list }) => {
         <Card.Text className="d-flex flex-wrap">
           Languages:{" "}
           {list.skills.map((skill, index) =>
-            <Badge key={index} bg="light" text="dark" className="mx-2">
+            <Badge key={index} bg="light" text="dark" className="mx-2 my-1">
               {skill}
             </Badge>
           )}

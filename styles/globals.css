@@ -51,13 +51,3 @@ a {
     }
   }
   
-@media only screen and (max-width: 768px) {
-
-    .col-4 {
-        width: 100% !important;
-    }
-
-    .col-6 {
-        width: 100% !important;
-    }
-}

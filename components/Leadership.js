@@ -14,7 +14,7 @@ const LeaderShip = () => {
         <Row className="py-5">
           <h2 className="display-5 text-center pb-5">Leadership</h2>
 
-          <Col>
+          <Col lg={6}>
             <p className="lead">
               As a React developer with Internship experience, I bring technical
               expertise, project management skills, and strong communication
