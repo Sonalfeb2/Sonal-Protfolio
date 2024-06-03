@@ -8,38 +8,64 @@ function Skills() {
       level: 70
     },
     {
-      title: "JAVASCRIPT",
+      title: "Javascript",
       level: 80
     },
     {
-      title: "BOOTSTRAP",
+      title: "Bootstrap",
       level: 70
     },
     {
-      title: "RESTAPI",
+      title: "RestAPI",
       level: 80
     },
     {
-      title: "REACT JS/REACT-ROUTING",
+      title: "ReactJS/React-Routing",
       level: 80
     },
     {
-      title: "REDUX",
+      title: "Redux",
       level: 80
     },
     {
-      title: "FIREBASE-AUTHENTICATION",
+      title: "Firebase-Auth",
       level: 70
     },
     {
-      title: "NODE JS",
+      title: "NodeJS",
       level: 50
     },
     {
-      title: "NEXT JS",
+      title: "NextJS",
       level: 60
     }
   ];
+  const softSkills = [
+    {
+      title: "Goal Oriented",
+      level: 80
+    },
+    {
+      title: "Time Management",
+      level: 80
+    },
+    {
+      title: "Team Management",
+      level: 80
+    },
+    {
+      title: "Adaptaility",
+      level: 80
+    },
+    {
+      title: "Collaboration",
+      level: 80
+    },
+    {
+      title: "Problem Solving",
+      level: 80
+    }
+  ]
   return (
     <Container id="skills">
       <h1 className="text-center display-5 py-5">Skills</h1>
@@ -56,47 +82,21 @@ function Skills() {
                     <p className="lead mb-0">
                       {skill.title}
                     </p>
-                    <ProgressBar variant="success" now={skill.level} />
+                    <ProgressBar variant="primary" now={skill.level} />
                   </Col>
                 )}
               </Row>
             </Tab>
             <Tab eventKey="soft" title="Soft Skills">
-              <Row className="mb-4">
-                <Col>
-                  <ProgressBar variant="info" now={80} label="Goal Oriented" />
-                </Col>
-                <Col>
-                  <ProgressBar
-                    variant="info"
-                    now={80}
-                    label="Problem Solving"
-                  />
-                </Col>
-              </Row>
-              <Row className="mb-4">
-                <Col>
-                  <ProgressBar variant="info" now={80} label="Collaboration" />
-                </Col>
-                <Col>
-                  <ProgressBar
-                    variant="info"
-                    now={80}
-                    label="Team Management"
-                  />
-                </Col>
-              </Row>
-              <Row className="mb-4">
-                <Col>
-                  <ProgressBar
-                    variant="info"
-                    now={80}
-                    label="Time Management"
-                  />
-                </Col>
-                <Col>
-                  <ProgressBar variant="info" now={80} label="Adaptaility" />
-                </Col>
+            <Row className="mb-4">
+                {softSkills.map((skill, index) =>
+                  <Col md={6} key={index} className="mb-3">
+                    <p className="lead mb-0">
+                      {skill.title}
+                    </p>
+                    <ProgressBar variant="primary" now={skill.level} />
+                  </Col>
+                )}
               </Row>
             </Tab>
           </Tabs>

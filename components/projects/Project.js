@@ -5,7 +5,7 @@ const CardProject = ({ list }) => {
     <Card className="shadow bg-white rounded p-3 mb-5">
       <Card.Body>
         <Card.Title>
-          {list.title} {list.icon}
+          {list.title}
         </Card.Title>
         <Card.Text>
           {list.description}

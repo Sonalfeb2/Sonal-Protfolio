@@ -7,7 +7,7 @@ const AboutMe = () => {
         <Col lg={5} className=" d-flex justify-content-center">
           <img
             className="rounded-circle"
-            src="/photo.jpeg"
+            src="/sonal-image.jpg"
             alt="profilepicture"
             width="375px"
             height="375px"
@@ -15,7 +15,7 @@ const AboutMe = () => {
         </Col>
         <Col>
           <h2 className="display-5 text-center pt-3">About Me</h2>
-          <p className="lead text-center">
+          <p className="lead">
             Results-driven and technically proficient Software Development
             Intern with 6 months of industry exposure. Seeking an entry-level
             position in software development to apply practical skills in

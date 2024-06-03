@@ -1,8 +1,24 @@
 import { Navbar, Container, NavLink, Nav } from "react-bootstrap";
+import { useEffect, useState } from "react";
 function MainNavigation() {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+
+  useEffect(() => window.addEventListener("scroll", changeNavbarColor));
   return (
     <header>
-      <Navbar expand="lg" fixed="top" className="navbar-transparent">
+      <Navbar
+        id="navbar"
+        expand="lg"
+        fixed="top"
+        className={colorChange ? "bg-light" : "bg-transparent"}
+      >
         <Container fluid>
           <Navbar.Brand href="#home">{`<Sonal />`}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

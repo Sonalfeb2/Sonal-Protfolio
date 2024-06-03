@@ -21,7 +21,7 @@ const MainSection = () => {
     }
   ];
   return (
-    <main className={`${styles.main} bg-transparent bgstyle text-light`}>
+    <main className={`${styles.main}  bgstyle text-light`}>
       <h1 className="display-1">Sonal Agrawal</h1>
 
       <marquee loop="" className={styles.description}>
