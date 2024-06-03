@@ -2,7 +2,7 @@ import { Card, Button, Badge } from "react-bootstrap";
 
 const CardProject = ({ list }) => {
   return (
-    <Card className="shadow bg-white rounded p-3 mb-3">
+    <Card className="shadow bg-white rounded p-3 mb-5">
       <Card.Body>
         <Card.Title>
           {list.title} {list.icon}
