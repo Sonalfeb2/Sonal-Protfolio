@@ -28,7 +28,7 @@ const AboutMe = () => {
             <Button
               size="lg"
               variant="outline-dark"
-              href="https://drive.google.com/file/d/1m1JEHuimlvxij9rR8rdQvfOXseTNxg4d/view"
+              href="https://drive.google.com/file/d/1l_Q0tsEPqswBq4E9mWuel7csDcOadTEx/view?usp=sharing"
             >
               Resume
             </Button>

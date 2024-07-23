@@ -12,7 +12,7 @@ const LeaderShip = () => {
     <Container fluid id="leadership" style={{ backgroundColor: "#F8F9FA" }}>
       <Container>
         <Row className="py-5">
-          <h2 className="display-5 text-center pb-5">Leadership</h2>
+          <h2 className="display-5 text-center pb-5">Internship</h2>
 
           <Col lg={6}>
             <p className="lead">

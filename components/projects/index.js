@@ -25,12 +25,12 @@ const Projects = () => {
 
     {
       id:3,
-      title: "ECCOMERCE APP",
+      title: "BOOK STORE",
       description:
-        "E-commerce website is an application that gives users the option to see different products and add them to the cart, manipulating cart data. User needs to log in to access their cart and users can see the product details as well.",
-      skills:["React","React-Bootstrap","Redux","React-Router","API","Axios"],
-      time: "Updated on March 2024",
-      link:"https://github.com/Sonalfeb2/ShoppingCart-Redux"
+        "Created a Book Store with Cart management, Product Management and Management.Project Contain Dynamic Routes , Models by File Management,Controllers and Views by EJS.",
+      skills:["Node","Express","EJS","File Management","API"],
+      time: "Updated on July 2024",
+      link:"https://book-store-btva.onrender.com/"
     },
     {
       id:4,
